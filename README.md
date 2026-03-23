@@ -1,20 +1,24 @@
-# RoboRAN-Code: A Robotics Simulation Framework
+# Robotics RL Navigation Simulator
 
-This project is a fork and personal exploration of a unified robotics framework for reinforcement learning-based autonomous navigation. It provides a simulation environment to develop and test RL algorithms for robotic control and pathfinding in complex scenarios.
+A simulation environment for reinforcement learning-based autonomous robot navigation. This project provides a unified framework to train and evaluate RL agents in customizable robotic scenarios, enabling rapid prototyping and research.
 
 ## Key Features
-*   Simulated robotic agents with configurable sensors and dynamics.
-*   Integration with popular RL libraries for training navigation policies.
-*   Modular environment design for creating custom tasks and obstacles.
-*   Visualization tools for monitoring agent performance and behavior.
+- Modular simulation environments for diverse robotic navigation tasks
+- Integration with popular RL libraries (e.g., Stable Baselines3, RLlib)
+- Configurable sensor suites and robot dynamics
+- Performance benchmarking and visualization tools
 
 ## Tech Stack
-*   Python
-*   OpenAI Gym / Gymnasium
-*   PyBullet / MuJoCo (Physics Simulation)
-*   PyTorch / TensorFlow
+- Python
+- OpenAI Gym/Gymnasium
+- PyBullet
+- Stable Baselines3
+- PyTorch
 
 ## Getting Started
-1.  Clone the repository: `git clone https://github.com/zoreanuj/RoboRAN-Code.git`
-2.  Install dependencies: `pip install -r requirements.txt`
-3.  Run a basic example: `python examples/basic_navigation.py`
+```bash
+git clone https://github.com/zoreanuj/robotics-rl-navigation-sim.git
+cd robotics-rl-navigation-sim
+pip install -r requirements.txt
+python train_basic.py
+```
